@@ -1,0 +1,136 @@
+/*Navbar*/
+.navbar-brand > img {
+  height: 40px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+
+/*Other*/
+* {
+  font-family: 'Fuzzy Bubbles', cursive;
+  font-size: 20px;
+}
+
+h1, h2 {
+  font-family: 'Righteous', cursive;
+  font-size: 30px;
+}
+
+#landing {
+  margin-top: 12.5vh;
+  height: 87.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightblue;
+}
+
+img {
+  height: 300px;
+  width: 500px;
+  vertical-align: middle;
+  border-style: ridge;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+.gallery > img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50px;
+  border-style: double;
+  vertical-align: middle;
+}
+
+#landing > img {
+  height: 500px;
+  width: 600px;
+  border-radius: 15%;
+}
+
+.abouts > img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50px;
+  border-style: double;
+  vertical-align: middle;
+}
+
+
+#aboutsP {
+  font-size: 20px;
+}
+
+#galleryP {
+  font-size: 25px;
+}
+
+#gallery {
+  padding: 5vh 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background-color:  gray;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+.tools {
+  border: 5px solid #5C4033;
+  width: 75%;
+  margin: 20px;
+  padding: 25px;
+  color: sandybrown;
+  background-color: yellow;
+}
+
+.tools > h2 {
+  color:    red;
+}
+
+h2{
+  color: green;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+#contacts {
+  background-color: pink;
+}
+
+.Fcontact {
+  color:purple;
+}
+
+#contact-us {
+  background-color:   black;
+  margin: 0;
+}
+
+#abouts {
+  background-color:   orange;
+  border-radius: 100px;
+}
+
+.ColorT {
+  color:  gold;
+}
